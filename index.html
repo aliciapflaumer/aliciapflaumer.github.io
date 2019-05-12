@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Portfolio website">
+    <meta name="author" content="Alicia Pflaumer">
     <meta name="robots" content="noimageindex, noarchive" />
     <meta name="robots" content="noindex, nofollow" />
 
@@ -24,15 +24,23 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-
+    <!-- <link href="scss/main.scss" rel="stylesheet"> -->
     <style>
-    .skills-logo {
-      width: 75px;
-      margin: 5px;
-    }
+      .icons {
+        color: #729fb1;
+      }
+      .project-details a {
+        color: #000;
+        text-decoration: underline;
+      }
+      .project-details a:hover {
+        color: #729fb1;
+      }
+      .skills-logo {
+        width: 75px;
+        margin: 5px;
+      }
     </style>
-
   </head>
 
   <body id="page-top">
@@ -94,7 +102,7 @@
         <hr class="star-primary">
         <div class="row">
 
-          <!-- Project To Do List app -->
+          <!-- Project Sketch app -->
           <div class="col-sm-4 portfolio-item">
             <a class="portfolio-link" href="#portfolioModal10" data-toggle="modal">
               <div class="caption">
@@ -138,7 +146,7 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/HTML5_tennis-game.png" alt="A game application built with HTML5 and Javascript">
+              <img class="img-fluid" src="img/portfolio/HTML5-tennis-game.png" alt="A game application built with HTML5 and Javascript">
             </a>
           </div>
 
@@ -342,11 +350,13 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <h2>Work in progress: My Sketch Application</h2>
+                  <h2>Work in progress: Draw. Doodle. Sketch.</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/portfolio/project_sketch_app.png" alt="An application built with React JS">
-                  <p>An experiment embedding a Processing/P5.js sketch in the React Javascript library.</p>
-                  <p>The live deployed frontend app can be <a href="https://aliciapflaumer.github.io/my-sketch-app/">viewed and demonstrated here</a>, and feel free to browse my code on <a href="https://github.com/aliciapflaumer/my-sketch-app">Github</a>.</p>
+                  <p>An experiment embedding a P5.js sketch in the React library.</p>
+                  <p class="project-details"><i class="fa fa-wrench icons"></i>&nbsp;P5.js, React&nbsp;<i class="fa fa-code icons"></i>&nbsp;Javascript</p>
+                  <p class="project-details"><a href="https://aliciapflaumer.github.io/my-sketch-app/" target="_blank"><i class="fa fa-window-maximize icons"></i>&nbsp;Live application</a>
+    <a href="https://github.com/aliciapflaumer/my-sketch-app" target="_blank"><i class="fa fa-github icons"></i>&nbsp;Github</a></p>
                     <ul class="list-inline item-details">
                       <li>Date:
                         <strong>
@@ -381,8 +391,10 @@
                   <h2>Work in progress: To Do List</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/portfolio/project_todolist_app.png" alt="An application built with React JS">
-                  <p>A full-stack To Do List application built with Angular 2 and Ruby on Rails.</p>
-                  <p>The live deployed app can be <a href="https://aliciapflaumer.github.io/angular-todo/">viewed and demonstrated here</a>, and feel free to browse my code on Github. The frontend can be viewed <a href="https://github.com/aliciapflaumer/angular-todo">here</a>. The backend can be viewed <a href="https://github.com/aliciapflaumer/angular-todo-api">here</a>.</p>
+                  <p>A full-stack To Do List application.</p>
+                  <p class="project-details"><i class="fa fa-wrench icons"></i>&nbsp;Angular 2, Ruby on Rails&nbsp;<i class="fa fa-code icons"></i>&nbsp;Typescript, HTML, Embedded Ruby (ERB)</p>
+                  <p class="project-details"><a href="https://aliciapflaumer.github.io/angular-todo/" target="_blank"><i class="fa fa-window-maximize icons"></i>&nbsp;Live application</a>
+    <a href="https://github.com/aliciapflaumer/angular-todo" target="_blank"><i class="fa fa-github icons"></i>&nbsp;Github</a></p>
                     <ul class="list-inline item-details">
                       <li>Date:
                         <strong>
@@ -417,8 +429,11 @@
                   <h2>Content Management System</h2>
                   <hr class="star-primary">
                   <img class="img-fluid img-centered" src="img/portfolio/project-cms.png" alt="An application built with React JS">
-                  <p>A self-directed project where I built a Content Management System, building a bridge between my background in web content management and web development, utilizing the Ruby on Rails backend framework and Bootstrap and SASS for styling the frontend.</p>
-                  <p>The live deployed app can be <a href="https://a-rails-cms.herokuapp.com/">viewed and demonstrated here</a>, and feel free to browse my code on <a href="https://github.com/aliciapflaumer/cms">Github</a>.</p>
+                  <p>A self-directed project building a Content Management System, a bridge between my background in web content management and web development.</p>
+                  <p class="project-details"><i class="fa fa-wrench icons"></i>&nbsp;Ruby on Rails, Bootstrap&nbsp;<i class="fa fa-code icons"></i>&nbsp;Embedded Ruby (ERB), HTML, Sass</p>
+                  <p class="project-details">
+                    <a href="https://a-rails-cms.herokuapp.com/" target="_blank"><i class="fa fa-window-maximize icons"></i>&nbsp;Live application</a>
+                  <a href="https://github.com/aliciapflaumer/cms" target="_blank"><i class="fa fa-github icons"></i>&nbsp;Github</a></p>
                     <ul class="list-inline item-details">
                       <li>Date:
                         <strong>
@@ -452,10 +467,13 @@
                 <div class="modal-body">
                   <h2>Tennis Game</h2>
                   <hr class="star-primary">
-                  <img class="img-fluid img-centered" src="img/portfolio/HTML5_tennis-game.png" alt="An application built with React JS">
-                  <p>As a self-directed project I built a Tennis Game using HTML5's canvas element and Javascript.</p>
-                  <p>I followed along with a <a href="https://www.udemy.com/code-your-first-game/">Udemy course</a> to build out the initial game play functions and to learn how to draw onto the canvas. I continued on my own to add features that I wanted, such as, a start screen and some style changes to the appearance of the game.</p>
-                  <p>The live deployed app can be <a href="https://aliciapflaumer.github.io/tennis-game/">played here</a>, and feel free to browse my code on <a href="https://github.com/aliciapflaumer/tennis-game">Github</a>.</p>
+                  <img class="img-fluid img-centered" src="img/portfolio/HTML5-tennis-game.png" alt="An application built with React JS">
+                  <p style="text-align: justify;"><span style="font-weight: 600;">To play game:</span><br />
+                  You are the left paddle and you're playing against the computer on the right side. The first player to reach 5 points wins the game. <br /><br />No sign-in required. Play as many times as you would like.</p>
+                  <p class="project-details"><i class="fa fa-code icons"></i>&nbsp;HTML5, CSS, Javascript</p>
+                  <p class="project-details">
+                    <a href="https://aliciapflaumer.github.io/tennis-game/" target="_blank"><i class="fa fa-window-maximize icons"></i>&nbsp;Live application</a>
+                  <a href="https://github.com/aliciapflaumer/tennis-game" target="_blank"><i class="fa fa-github icons"></i>&nbsp;Github</a></p>
                     <ul class="list-inline item-details">
                       <li>Date:
                         <strong>
