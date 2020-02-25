@@ -24,23 +24,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
-    <!-- <link href="scss/main.scss" rel="stylesheet"> -->
-    <style>
-      .icons {
-        color: #729fb1;
-      }
-      .project-details a {
-        color: #000;
-        text-decoration: underline;
-      }
-      .project-details a:hover {
-        color: #729fb1;
-      }
-      .skills-logo {
-        width: 75px;
-        margin: 5px;
-      }
-    </style>
+    <link href="css/my-styles.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -57,14 +41,6 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-                <!-- <ul>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Web Development</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="photography.html">Photography</a>
-                  </li>
-                </ul> -->
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -100,8 +76,15 @@
       <div class="container">
         <h2 class="text-center">Portfolio</h2>
         <hr class="star-primary">
+        <p class="text-center">
+          <a id="web-development">Web Application Development</a> |
+          <a id="photography">
+            Photography
+          </a>
+        </p>
         <div class="row">
 
+          <div class="web-development">
           <!-- Project Sketch app -->
           <div class="col-sm-4 portfolio-item">
             <a class="portfolio-link" href="#portfolioModal10" data-toggle="modal">
@@ -210,6 +193,58 @@
             </a>
           </div>
 
+          </div>
+
+          <div class="photography">
+
+            <div class="col-sm-4 portfolio-item">
+              <img class="img-fluid" src="img/portfolio/photography/providence-ri-1.jpg" alt="Providence, RI">
+              <div class="caption">
+                  <div class="caption-content">
+                    Rhode Island State house, Providence, RI, 2020 (digital)
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 portfolio-item">
+              <img class="img-fluid" src="img/portfolio/photography/providence-ri-2.jpg" alt="Providence, RI">
+                <div class="caption">
+                  <div class="caption-content">
+                    "Friendship St", Providence, RI, 2020 (digital)
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 portfolio-item">
+                <img class="img-fluid" src="img/portfolio/photography/view-from-window-pvd.jpg" alt="Providence, RI">
+                <div class="caption">
+                  <div class="caption-content">
+                    "View from window", Providence, RI, 2019 (digital)
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-4 portfolio-item">
+                <img class="img-fluid" src="img/portfolio/photography/winter-pvd.jpg" alt="Providence, RI">
+                <div class="caption">
+                  <div class="caption-content">
+                    "Winter", Providence, RI, 2019 (digital)
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-4 portfolio-item">
+                <img class="img-fluid" src="img/portfolio/photography/sunflowers-pvd.jpg" alt="Providence, RI">
+                <div class="caption">
+                  <div class="caption-content">
+                    "Sunflowers", Providence, RI, 2019 (digital)
+                  </div>
+                </div>
+            </div>
+
+          </div>
 
         </div>
       </div>
@@ -733,7 +768,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
-
+    <script src="js/my-javascript.js"></script>
   </body>
-
 </html>

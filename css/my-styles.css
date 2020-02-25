@@ -1,0 +1,28 @@
+.icons {
+  color: #729fb1;
+}
+.project-details a {
+  color: #000;
+  text-decoration: underline;
+}
+.project-details a:hover {
+  color: #729fb1;
+}
+.skills-logo {
+  width: 75px;
+  margin: 5px;
+}
+
+.web-development, .photography {
+    display: flex;
+    flex-wrap: wrap
+}
+
+a#web-development, a#photography {
+  cursor: pointer;
+  padding: .5rem;
+}
+
+a#web-development:hover, a#photography:hover{
+  color: #729fb1
+}
