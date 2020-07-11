@@ -13,17 +13,17 @@
   margin: 5px;
 }
 
-.web-development, .photography {
+.web-development, .photography, .drawings {
     display: flex;
     flex-wrap: wrap
 }
 
-a#web-development, a#photography {
+a#web-development, a#photography, a#drawings {
   cursor: pointer;
   padding: .5rem;
 }
 
-a#web-development:hover, a#photography:hover{
+a#web-development:hover, a#photography:hover, a#drawings:hover{
   color: #729fb1
 }
 
