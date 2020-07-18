@@ -1,3 +1,9 @@
+@media and screen (max-width:600px){
+  video {
+    width: 320px;
+  }
+}
+
 .icons {
   color: #729fb1;
 }
