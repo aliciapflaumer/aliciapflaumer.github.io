@@ -1,14 +1,8 @@
 (function($) {
   "use strict";
 
-  $('.photography').hide();
+  $('.web-development').hide();
   $('.drawings').hide();
-
-  $('#web-development').click(function() {
-    $('.photography').hide();
-    $('.drawings').hide();
-    $('.web-development').show()
-  });
 
   $('#photography').click(function() {
     $('.web-development').hide();
@@ -16,6 +10,12 @@
     $('.photography').show()
   });
 
+  $('#web-development').click(function() {
+    $('.photography').hide();
+    $('.drawings').hide();
+    $('.web-development').show()
+  });
+  
   $('#drawings').click(function() {
     $('.drawings').show();
     $('.web-development').hide();
