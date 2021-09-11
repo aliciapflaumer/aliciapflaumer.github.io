@@ -39,13 +39,14 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^3.9.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-filter": "^5.0.1",
     "gulp-header": "^2.0.9",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-uglify": "3.0.0",
+    "http-server": "^13.0.1",
     "lodash": "^4.17.20",
     "lodash.template": ">=4.5.0",
     "tar": "^4.4.13"
