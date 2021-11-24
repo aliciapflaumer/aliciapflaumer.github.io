@@ -19,7 +19,8 @@ public/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 # Thumbnails
 ._
 # Files that might appear in the root of a volume
@@ -106,5 +107,7 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# email file
+redirect-mailto.php
 
 # End of https://www.gitignore.io/api/node
