@@ -7,7 +7,7 @@
 .portfolio-modal .close-modal {
   display: none;
 }
-@media and screen (max-width:600px){
+@media screen and (max-width:600px){
   video {
     width: 320px;
   }
@@ -66,4 +66,8 @@ a.portfolio-link:hover {
 }
 i.fa.fa-fw:hover, .btn-social:hover {
   color: #2c3e50;
+}
+.sig {
+  width: 150px;
+  float: right;
 }
