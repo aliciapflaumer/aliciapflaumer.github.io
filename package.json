@@ -39,7 +39,7 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-filter": "^5.0.1",
     "gulp-header": "^2.0.9",
